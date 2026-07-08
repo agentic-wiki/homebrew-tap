@@ -1,27 +1,27 @@
 class Wiki < Formula
   desc "Query and maintain agentic-wiki bundles (OKF markdown)"
   homepage "https://github.com/agentic-wiki/wiki"
-  version "0.4.0"
+  version "0.5.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agentic-wiki/wiki/releases/download/v0.4.0/wiki_darwin_arm64.tar.gz"
-      sha256 "850a407c7a8464b9e01d2fb9ed5db120c04760a6461c3d3e8a6de15d7c6e9476"
+      url "https://github.com/agentic-wiki/wiki/releases/download/v0.5.0/wiki_darwin_arm64.tar.gz"
+      sha256 "f9eb3c5e3527e23f5ae2a1999861767a05e3cea7e2b1f1f547c2f47585c14017"
     end
     on_intel do
-      url "https://github.com/agentic-wiki/wiki/releases/download/v0.4.0/wiki_darwin_amd64.tar.gz"
-      sha256 "69dcc2335b453d482fad8889e0d9eda78c911b6e75ff57e89f2a166c0a2bae7e"
+      url "https://github.com/agentic-wiki/wiki/releases/download/v0.5.0/wiki_darwin_amd64.tar.gz"
+      sha256 "688d14d18c06b1804960438433421f83713a3d3428bf360a70277c2ff183e0f8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agentic-wiki/wiki/releases/download/v0.4.0/wiki_linux_arm64.tar.gz"
-      sha256 "027fc8f9771539ecd29897499bd69082de39f339dffd5800e0d652feaad5e8a9"
+      url "https://github.com/agentic-wiki/wiki/releases/download/v0.5.0/wiki_linux_arm64.tar.gz"
+      sha256 "8ded295ddf39b7c8aed1f110c45ad77d2aa829da8d77641808b2b71929a08497"
     end
     on_intel do
-      url "https://github.com/agentic-wiki/wiki/releases/download/v0.4.0/wiki_linux_amd64.tar.gz"
-      sha256 "6921ed00a7d90f29d497c75a13cdf3b84011dd8bf6b5ac5e50494b1ed68acc75"
+      url "https://github.com/agentic-wiki/wiki/releases/download/v0.5.0/wiki_linux_amd64.tar.gz"
+      sha256 "951694d111eb23926351157015497292ca494ccbe8bd1079ad58b8283720fa2d"
     end
   end
 
