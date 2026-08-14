@@ -1,27 +1,27 @@
 class Wikiview < Formula
   desc "Read and board agentic-wiki bundles in a browser"
   homepage "https://github.com/agentic-wiki/wikiview"
-  version "0.5.0"
+  version "0.6.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agentic-wiki/wikiview/releases/download/v0.5.0/wikiview_darwin_arm64.tar.gz"
-      sha256 "22df5882ee281f7026259aae0f0189b0a31cb10db642881aa87eb120a94f23e2"
+      url "https://github.com/agentic-wiki/wikiview/releases/download/v0.6.0/wikiview_darwin_arm64.tar.gz"
+      sha256 "aae9ebe124895f0a1dcfaa906d0dce97dcc4206aac3a5080ed441899ed439cef"
     end
     on_intel do
-      url "https://github.com/agentic-wiki/wikiview/releases/download/v0.5.0/wikiview_darwin_amd64.tar.gz"
-      sha256 "e42b42118b09f8ca39df564050bb367ad9d2b8ba582bc85920570609318c4c18"
+      url "https://github.com/agentic-wiki/wikiview/releases/download/v0.6.0/wikiview_darwin_amd64.tar.gz"
+      sha256 "3fdd5b04431055ab1e2eb6e706e55e343d38a446f91752c4be098f143b281cc6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agentic-wiki/wikiview/releases/download/v0.5.0/wikiview_linux_arm64.tar.gz"
-      sha256 "2bde8abc512705d37cef5979a8deaa3bd787909c26bdaad7ea90805bdee1a939"
+      url "https://github.com/agentic-wiki/wikiview/releases/download/v0.6.0/wikiview_linux_arm64.tar.gz"
+      sha256 "4a9c9ba307b6d7409b63f8a6f9ff1fe2aa4bce8cddf207486097472f1f15e853"
     end
     on_intel do
-      url "https://github.com/agentic-wiki/wikiview/releases/download/v0.5.0/wikiview_linux_amd64.tar.gz"
-      sha256 "1e2413a75761e6bc327f69da2481cf61fea919c769ff6860bd83d1ad799a658e"
+      url "https://github.com/agentic-wiki/wikiview/releases/download/v0.6.0/wikiview_linux_amd64.tar.gz"
+      sha256 "5adb8a18724bd9b720ff426966445d50a6507a48f3130da0a93aef05674ba267"
     end
   end
 
